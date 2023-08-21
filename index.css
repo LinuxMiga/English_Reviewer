@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#main {
+  margin-top: 100px;
+}
+
+#word, #meaning, #input {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.option {
+  font-size: 16px;
+  padding: 8px 12px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
